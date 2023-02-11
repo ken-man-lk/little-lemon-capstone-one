@@ -1,13 +1,14 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+:root {
+  font-family: "Markazi Text", serif;
+  font-family: "Karla", sans-serif;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* primary color */
+  --primary-colors-green: #495e57;
+  --primary-colors-yellow: #f4ce14;
+
+  /* secondary color */
+  --secondary-colors-orange: #ee9972;
+  --secondary-colors-lightorange: #fbdabb;
+  --secondary-colors-lightblue: #edefee;
+  --secondary-colors-black: #333333;
 }

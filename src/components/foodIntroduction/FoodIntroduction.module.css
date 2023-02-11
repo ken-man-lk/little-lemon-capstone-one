@@ -1,0 +1,63 @@
+.mainWrapper {
+}
+
+.mainContainer {
+}
+
+.foodNameFlexbox {
+  padding: 0rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flexboxContainer {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  min-height: 30rem;
+  background-color: var(--secondary-colors-lightblue);
+  border-radius: 0.375rem;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.foodImage {
+  width: 20rem;
+  object-fit: cover;
+}
+
+.foodName {
+  font-family: "Karla";
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.foodPrice {
+  font-family: "Karla";
+  color: #ee9972;
+  font-weight: 800;
+}
+
+.foodDescr {
+  font-family: "Karla";
+  padding: 0rem 2rem;
+  line-height: 1.2;
+}
+
+.btnOrder {
+  display: flex;
+  font-family: "Karla";
+  font-weight: 800;
+  padding: 0rem 0rem 0rem 2rem;
+  text-align: left;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.deliveryIcon {
+  width: 2rem;
+}

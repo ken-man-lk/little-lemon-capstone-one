@@ -1,0 +1,18 @@
+.mainWrapper {
+}
+
+.mainContainer {
+  color: var(--primary-colors-green);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.itemContainer {
+  display: flex;
+  gap: 1em;
+
+  font-size: 1.25em;
+  font-family: "Markazi Text";
+  font-weight: 500;
+}

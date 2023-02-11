@@ -1,0 +1,35 @@
+.mainWrapper {
+}
+
+.mainContainer {
+  padding: 1rem 2rem;
+}
+
+.bookingForm {
+  padding: 1rem 1rem;
+  border: 0.25rem solid var(--primary-colors-green);
+  border-radius: 0.375rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  gap: 1.5rem;
+}
+
+.formFlexRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnSubmit {
+  margin: auto;
+  width: 12rem;
+  padding: 0.5rem 1rem;
+  font-family: "Markazi Text";
+  font-weight: 500;
+  /* justify-self: center; */
+  /* justify-items: center; */
+  justify-content: center;
+  background-color: var(--primary-colors-yellow);
+  border-radius: 0.375rem;
+}
