@@ -5,6 +5,7 @@ import useAvailableTimes from "../hooks/useAvailableTimes";
 
 //custom components
 import Header from "../components/header";
+import Main from "../components/main";
 import BookingForm from "../components/bookingForm";
 import Footer from "../components/footer";
 
@@ -15,13 +16,6 @@ const BookingPage = () => {
   const initializeTimes = () => {
     return availableTimes;
   };
-
-  // const myFunc = () => {
-  //   console.log("fetchAPI()");
-  //   console.log(fetchAPI("2022-01-01"));
-  // };
-
-  // myFunc();
 
   const availableTimesReducer = (state = initializeTimes, action) => {
     switch (action.type) {
@@ -39,7 +33,9 @@ const BookingPage = () => {
   return (
     <>
       <Header />
-      <BookingForm availableTimes={availableTimes} />
+      <Main>
+        <BookingForm availableTimes={availableTimes} />
+      </Main>
       <Footer />
     </>
   );

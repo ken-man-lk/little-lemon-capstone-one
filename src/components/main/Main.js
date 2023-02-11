@@ -1,12 +1,18 @@
-import CallToAction from "../callToAction";
-import MenuSpecials from "../menuSpecials";
+import React from "react";
 
 //
-const Main = () => {
+import CallToAction from "../callToAction";
+import MenuSpecials from "../menuSpecials";
+import Testimonials from "../testimonials";
+
+//
+
+const Main = (props) => {
   return (
     <>
-      <CallToAction />
+      <CallToAction>{props.children}</CallToAction>
       <MenuSpecials />
+      <Testimonials />
     </>
   );
 };

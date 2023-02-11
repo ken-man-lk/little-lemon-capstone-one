@@ -1,6 +1,59 @@
-.container {
-  background-color: red;
-  display: grid;
-  grid-template-columns: repeat(4, 100px);
-  grid-template-rows: 1fr;
+/*Testimonial*/
+.testimonialCard {
+  background-color: var(--secondary-colors-lightblue);
+  padding: 1rem 1.5rem;
+  border-radius: 0.375rem;
+  display: flex;
+  min-width: 20rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07))
+    drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+}
+
+.testimonialScore {
+  font-family: "Karla";
+  font-weight: 800;
+}
+
+.testimonialIcon {
+  width: 5rem;
+  border-radius: 0.375rem;
+}
+
+.testimonialName {
+  font-family: "Markazi Text";
+  font-size: 1.5rem;
+}
+
+.testimonialMessage {
+  font-family: "Karla";
+  font-style: italic;
+}
+/********************************************/
+/*Testimonials*/
+
+.mainWrapper {
+}
+
+.mainContainer {
+  margin-top: 2rem;
+  background-color: var(--primary-colors-green);
+  padding: 1.5rem 1rem;
+}
+
+.title {
+  font-family: "Karla";
+  text-align: center;
+  padding-bottom: 1rem;
+  color: var(--primary-colors-yellow);
+  font-size: 3rem;
+}
+
+.testimonialContainer {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  align-items: center;
 }

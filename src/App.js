@@ -8,9 +8,6 @@ import BookingPage from "./pages/BookingPage";
 
 //
 function App() {
-  console.log("fetchAPI()");
-  console.log(fetchAPI("2022-01-01"));
-
   return (
     <>
       <BrowserRouter>
